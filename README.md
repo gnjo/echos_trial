@@ -12,15 +12,16 @@ echos.add(macro).add(macro2).add(macro3)
  //if message buffering waitcount +=4
 ```
 ```
->press anykey message
->>not press message
-i>output info
-?>select call  //use info area
-{/*javascript world*/}
-{{{}}} //$$$ input
-{1}>>>#aiuewo //jump
-{1}>>>{ec.jumpback} //jumpback
-{1}>>>### //same
+>press anykey message mode='mes'
+>>not press message mode='mes'
+i>output info mode='free'
+?>select call  //use info area mode='sel'
+* //wait keep the mode 
+{/*javascript world*/} mode='free'
+{{{}}} //$$$ input mode='free'
+{1}>>>#aiuewo //jump mode='free'
+{1}>>>{ec.jumpback} //jumpback  mode='free'
+{1}>>>### //same  mode='free'
 
 $$$ return
 $$0...9 return0
