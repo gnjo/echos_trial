@@ -16,6 +16,7 @@ echos.add(macro).add(macro2).add(macro3)
 i>output info
 ?>select call  //use info area
 {/*javascript world*/}
+{{{}}} //$$$ input
 {1}>>>#aiuewo //jump
 {1}>>>{ec.jumpback} //jumpback
 {1}>>>### //same
