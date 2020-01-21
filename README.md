@@ -14,7 +14,7 @@ echos.add(macro).add(macro2).add(macro3)
 >press anykey message
 >>not press message
 i>output info
-?>select call
+?>select call  //use info area
 ```
 ```
 #echos
