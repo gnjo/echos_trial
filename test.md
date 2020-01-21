@@ -22,7 +22,20 @@
 }}}
 {$$b[0]=$$$}
 *
-{1}>>>#walk
+{1}>>>#city
+
+#city
+i0>cityimage
+i1>citycenter
+{{{
+inn
+temple
+labyrinth
+}}}
+2>{$$$}
+{$$n===2}>>>#B01X00Y00
+
+{1}>>>#city
 
 #walk
 k>
@@ -38,8 +51,6 @@ i0>aaaaa  //background image
 i1>bbbbb  //center image
 >{$$p.a0}
 k>
-i0>//reset call
-i1>//reset call
 *
 {1}>>>#walk
 
