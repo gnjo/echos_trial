@@ -33,8 +33,8 @@ inn
 temple
 labyrinth
 }}}
-2>{$$$}
-//
+?2>{$$$}
+//output 2 is selecting
 {$$k==='b'}>>>#city
 {$$n===0}>>>#inn
 {$$n===1}>>>#temple
