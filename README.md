@@ -15,6 +15,9 @@ echos.add(macro).add(macro2).add(macro3)
 >>not press message
 i>output info
 ?>select call  //use info area
+{/*javascript world*/}
+{1}>>>#aiuewo //jump
+{1}>>> //jumpback
 ```
 ```
 #echos
