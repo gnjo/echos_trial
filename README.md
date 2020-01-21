@@ -21,8 +21,8 @@ i>output info
 
 $$$ return
 $$0...9 return0
-$$OLD oldaddress
-$$NOW nowaddress
+ec.nowAddr
+ec.oldAddr
 ```
 ```
 #echos
