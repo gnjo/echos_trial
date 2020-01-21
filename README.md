@@ -33,3 +33,13 @@ other
 ?>{$$$}
 {1}>>>#jump1
 ```
+
+```
+// ex: separate 2 letters, and add "¥¥x"
+var segments = signal.match(/.{2}/g);
+
+var code = ""
+for (var i = 0; i < segments.length; i++) {
+  code += "¥¥x" + segments[i];
+}
+```
