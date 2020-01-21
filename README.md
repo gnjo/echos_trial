@@ -7,7 +7,8 @@ echos.add(macro).add(macro2).add(macro3)
  .run((mode,log,info,seln,ec)=>{},20) //always start '#echos'
  
  //mode =sel|mes|free
- 
+ //waitcount
+ //if message buffering waitcount +=4
 ```
 
 ```
