@@ -33,7 +33,7 @@ temple
 labyrinth
 }}}
 2>{$$$}
-k>
+//
 {$$k==='b'}>>>#city
 {$$n===0}>>>#inn
 {$$n===1}>>>#temple
