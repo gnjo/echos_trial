@@ -10,7 +10,12 @@ echos.add(macro).add(macro2).add(macro3)
  //waitcount
  //if message buffering waitcount +=4
 ```
-
+```
+>press anykey message
+>>not press message
+i>output info
+?>select call
+```
 ```
 #echos
 >hello echos
