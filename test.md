@@ -25,6 +25,7 @@
 {1}>>>#city
 
 #city
+{$$n=0}
 i0>cityimage
 i1>citycenter
 {{{
