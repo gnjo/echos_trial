@@ -58,3 +58,15 @@ let a='aiueoaiueoaiueo'.match(new RegExp('.{'+n+'}','g')) //  /.{5}/g
 {1}>>>{$00}
 
 ```
+
+
+```
+#walk
+//keywait order
+k>
+i>{$$k}
+{1}>>>#walk
+```
+
+
+
