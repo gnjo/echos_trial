@@ -33,6 +33,10 @@ temple
 labyrinth
 }}}
 2>{$$$}
+k>
+{$$k==='b'}>>>#city
+{$$n===0}>>>#inn
+{$$n===1}>>>#temple
 {$$n===2}>>>#B01X00Y00
 *
 {1}>>>#city
@@ -40,10 +44,10 @@ labyrinth
 #walk
 k>
 1>{$$k}
-{$$p=walk($$k)}
+{$$p=fn.walk($$p,$$k)}
 //$$p={x,y,z,v,a0,a1}//a0 is ex)#B01X00Y00.W , a1 is ex)#B01X00Y00
-{isJump($$p.a0)}>>>{$$p.a0}
-{isJump($$p.a1)}>>>{$$p.a1}
+{fn.isJump($$p.a0)}>>>{$$p.a0}
+{fn.isJump($$p.a1)}>>>{$$p.a1}
 {1}>>>#walk
 
 #B00X00Y00
