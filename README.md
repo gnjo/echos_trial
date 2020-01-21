@@ -29,6 +29,8 @@ $$0...9 return0
 >hello echos
 >{ec.mode}
 >{ec.line}
+>{ec.logMaxWidth}
+>{ec.logMaxLines}
 * //waitcount +=4, if ** is +8
 #jump1
 {{{
