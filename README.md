@@ -18,6 +18,11 @@ i>output info
 {/*javascript world*/}
 {1}>>>#aiuewo //jump
 {1}>>> //jumpback
+
+$$$ return
+$$0...9 return0
+$$OLD oldaddress
+$$NOW nowaddress
 ```
 ```
 #echos
