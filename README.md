@@ -17,11 +17,12 @@ i>output info
 ?>select call  //use info area
 {/*javascript world*/}
 {1}>>>#aiuewo //jump
-{1}>>>{$$jumpback} //jumpback
+{1}>>>{ec.jumpback} //jumpback
+{1}>>>### //same
 
 $$$ return
 $$0...9 return0
-$$jumpback //11 number jumpbackline
+### //11 number jumpbackline
 ```
 ```
 #echos
@@ -47,7 +48,8 @@ let a='aiueoaiueoaiueo'.match(new RegExp('.{'+n+'}','g')) //  /.{5}/g
 ```
 
 ```
-{$00=$$jumpback} //stock the oldjump
+//double jumps
+{$00=ec.jumpback} //stock the old jump line
 {1}>>>{$00}
 
 ```
