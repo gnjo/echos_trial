@@ -2,9 +2,10 @@
 memory input macro
 
 ```
+let drawer=(mode,log,info,seln,ec)=>{}
 echos.add(macro).add(macro2).add(macro3)
  .key('w,a,s,d,j,k,i,l,u,o') //^,<,v,>,a,b,x,y,l,r
- .run((mode,log,info,seln,ec)=>{},20) //always start '#echos'
+ .run(drawer,20) //always start '#echos'
  
  //mode =sel|mes|free
  //waitcount
