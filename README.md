@@ -21,8 +21,7 @@ i>output info
 
 $$$ return
 $$0...9 return0
-ec.nowAddr
-ec.oldAddr
+$$oldjump //#xyz:10
 ```
 ```
 #echos
@@ -45,4 +44,10 @@ other
 ```
 let n=5
 let a='aiueoaiueoaiueo'.match(new RegExp('.{'+n+'}','g')) //  /.{5}/g
+```
+
+```
+{$00=$$oldjump} //stock the oldjump
+{1}>>>{$00}
+
 ```
