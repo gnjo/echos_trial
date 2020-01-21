@@ -15,6 +15,7 @@ echos.add(macro).add(macro2).add(macro3)
 >press anykey message mode='mes'
 >>not press message mode='mes'
 i>output info mode='free'
+k> keywait keep the mode
 ?>select call  //use info area mode='sel'
 * //wait keep the mode 
 {/*javascript world*/} mode='free'
