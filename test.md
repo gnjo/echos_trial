@@ -34,8 +34,12 @@ k>
 {1}>>>#walk
 
 #B00X00Y00
+@0>aaaaa  //background image
+@1>bbbbb  //center image
 >{$$p.a0}
 k>
+@0>//reset call
+@1>//reset call
 *
 {1}>>>#walk
 
