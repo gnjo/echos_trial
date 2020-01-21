@@ -4,7 +4,10 @@ memory input macro
 ```
 echos.add(macro).add(macro2).add(macro3)
  .key('w,a,s,d,j,k,i,l,u,o') //^,<,v,>,a,b,x,y,l,r
- .run((mes,ec)=>{},20) //always start '#echos'
+ .run((mode,mes,sel,seln,ec)=>{},20) //always start '#echos'
+ 
+ //mode =sel|mes
+ 
 ```
 
 ```
