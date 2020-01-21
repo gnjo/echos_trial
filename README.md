@@ -12,7 +12,10 @@ echos.add(macro).add(macro2).add(macro3)
 
 ```
 #echos
-
+>hello echos
+>{ec.mode}
+>{ec.line}
+* //wait 50ms, if ** is 100ms
 #jump1
 {{{
 a
