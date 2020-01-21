@@ -9,7 +9,7 @@ echos.add(macro).add(macro2).add(macro3)
  
  //mode =sel|mes|free
  //waitcount
- //if message buffering waitcount +=4
+ //if message buffering waitcount +1
 ```
 ```
 >press anykey message mode='mes'
