@@ -26,6 +26,8 @@ k> keywait keep the mode
 
 $$$ return
 $$0...9 return0
+$$k latest key
+$$n latest select number
 ### //number jumpbackline
 ```
 ```
