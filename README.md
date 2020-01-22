@@ -28,6 +28,8 @@ $$$ return
 $$0...9 return0
 $$k latest key
 $$n latest select number
+$$nn  selecting message number $o[$$nn] // -1 is disable
+$$o output message 
 ### //number jumpbackline
 ```
 ```
