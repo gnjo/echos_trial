@@ -35,6 +35,7 @@ labyrinth
 }}}
 ?2>{$$$}
 //output 2 is selecting
+//$$o[2]
 {$$k==='b'}>>>#city
 {$$n===0}>>>#inn
 {$$n===1}>>>#temple
